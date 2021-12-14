@@ -1,0 +1,5 @@
+# Say to brownie when run script grab .env file
+dotenv: .env
+wallets:
+#In YAMl syntaxe $ and brackets reference to env varaiable
+  from_keys: ${PRIVATE_KEY}
